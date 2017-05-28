@@ -12,10 +12,10 @@ Then take them as inputs of deep leanring model.
 
 
 ### Requirements
-NumPy
-Tensorflow r1.1
-Keras 2
-OpenCV2
+####NumPy
+####Tensorflow r1.1
+####Keras 2
+####OpenCV2
 
 ###Predict
 

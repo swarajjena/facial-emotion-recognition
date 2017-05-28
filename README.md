@@ -21,3 +21,6 @@ This project aims to recognize facial expression with CNN implemented by Keras.
 ```
 python predict.py -p sample.jpg
 ```
+
+
+Please check Ipython notebook files for more details 

@@ -1,2 +1,23 @@
-# facial-emotion-recognition
-CNN based facial emotion recognition
+# Emotion Recognition using Deep Learning
+A  recognition system through webcam streaming/image input and CNN.
+
+## Abstraction
+This project aims to recognize facial expression with CNN implemented by Keras. 
+I also implement a real-time module which can real-time capture user's face through webcam steaming called by opencv. 
+OpenCV cropped the face it detects from the original frames and resize the cropped images to 48x48 grayscale image, 
+Then take them as inputs of deep leanring model. 
+
+## Dataset
+[fer2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) is the dataset I chose, which is anounced in Kaggle competition in 2013.
+
+
+### Requirements
+NumPy
+Tensorflow r1.1
+Keras 2
+OpenCV2
+
+###Predict
+
+python predict.py -p sample.jpg
+

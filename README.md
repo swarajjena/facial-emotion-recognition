@@ -17,7 +17,7 @@ This project aims to recognize facial expression with CNN implemented by Keras.
 <br />Keras 2
 <br />OpenCV2
 
-###Predict
-
+## Usage
+```
 python predict.py -p sample.jpg
-
+```
